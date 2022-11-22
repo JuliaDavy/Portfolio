@@ -25,3 +25,9 @@ ul li::before{
     .secondary titles:hover{
         background: #00d4ff;
 }
+
+#card-container}
+display: flex;
+justify-content: space-evently;
+flex-wrap: wrap;
+}
