@@ -1,17 +1,29 @@
 body{
-    margin: 0px
-    padding: 0px
+    margin: 0px;
+    padding: 0px;
     background: #00d4ff
 }
 H1{
-    color: #020024
-    padding: 5px
-    margin: 10px
+    color: #020024;
+    padding: 5px;
+    margin: 10px;
+}
+
+.title{
+    background-color: aqua;
+    animation-name: titleColorChange;
+    animation-duration: 4s;
+    animation-iteration-count: 10;
+}
+
+@keyframes titleColorChange{
+    from{ background-color: antiquewhite;}
+    to{ background-color: beige;}
 }
 .waterfall{
-    width:300px
-    height:200px
-    border: 10px color: #020024;
+    width: 300px;
+    height: 200px;
+    border: 5px solid #020024
 }
 ul li{
     list-style: none;
@@ -26,7 +38,7 @@ ul li::before{
         background: #00d4ff;
 }
 
-#card-container}
+#card-container{
 display: flex;
 justify-content: space-evently;
 flex-wrap: wrap;
