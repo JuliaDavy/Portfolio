@@ -1,7 +1,7 @@
 body{
     margin: 0px;
     padding: 0px;
-    background: #00d4ff
+    background: #e6ebec
 }
 H1{
     color: #020024;
@@ -10,14 +10,14 @@ H1{
 }
 
 .title{
-    background-color: aqua;
+    background-color: rgb(53, 99, 99);
     animation-name: titleColorChange;
     animation-duration: 4s;
     animation-iteration-count: 10;
 }
 
 @keyframes titleColorChange{
-    from{ background-color: antiquewhite;}
+    from{ background-color: rgb(226, 150, 50);}
     to{ background-color: beige;}
 }
 .waterfall{
